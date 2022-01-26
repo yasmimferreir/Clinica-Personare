@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+     
+.caixa-superior {
+    background-image: url("./img/dentista.jpg");
+    background-size: cover;
+    height: 90vh;
+   
+}
+
+.logo{
+    width: 80px;   
+}
+
+.cabecalho{
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.cabecalho {
+    padding-top: 25px;
+    padding-left: 35px;
+
+}
+
+.titulo-cabecalho {
+   font-size: 24px;
+   color: #ffffff;
+   display: inline;
+}
+
+.link-cabecalho {
+    font-size: 20px;
+    color: #ffffff;
+    display: #ffffff;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 { 
+    font-size: 38px;
+    color: #ffffff;
+    position: relative;
+    top: 350px; 
+    margin-left: 25px;
+}
+
+form {
+    background-color:#ffffff;
+    border-radius: 10px;
+    float: right;
+    padding: 20px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 70px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: 40px;
+    width: 240px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+
+
+}
+textarea {
+    display: block;
+    height: 130px;
+    width: 250px;
+    background: #f9f9f9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    
+}
+
+.titulo-formulario {
+    font-size: 24px;
+    color: #252B42;
+    margin-bottom: 30px;
+    text-align: center;
+}
+   
+label{
+    font-size: 14px;
+    color: #252B42;
+
+}
+
+ button {
+     width: 250px;
+     height: 40px;
+     cursor: pointer;
+     border: none;
+     border-radius: 5px;
+     background-color: #40BB15;
+     color: #ffffff;
+
+ }
+
+ .caixa-central {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+ }
+
+#titulo-meio {
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+
+
+    
+}
+ 
+.card {   
+    width: 300px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 2px;
+
+}
+
+.titulo-card {
+    background: coral;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;  
+}
+ul {
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+}
+
+.horas {
+    margin-left: 25px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+.social-midia {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-midia img {
+    height: 40px;
+    margin: 40px;
+    cursor: pointer;
+   
+}
+
+.caixa-inferior {
+    background-color: coral;
+    
+}
+
+#titulo-inferior {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+
+   
+}
